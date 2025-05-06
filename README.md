@@ -19,28 +19,38 @@ This project includes:
 - Jupyter Notebook
 
 ## File Structure
-
+```
 notebooks/         # Jupyter notebook showing the data cleansing process
 src/               # Reusable Python code (e.g., helper functions)
 data/              # Raw input (not included) and optional output files
 requirements.txt   # Python dependencies
 README.md          # Project overview
+```
 
 ## How to Use
 
 1. Clone this repository:
-`git clone https://github.com/mg-ds-portfolio/prj_open_airbnb_data_cleanse.git`
+   ```
+   git clone https://github.com/mg-ds-portfolio/prj_open_airbnb_data_cleanse.git
+   ```
 
 2. Create and activate a virtual environment
 
 3. Install dependencies:
-`pip install -r requirements.txt`
+
+   ```
+   pip install -r requirements.txt
+   ```
 
 4. Open the notebook:
    - Navigate to the `notebooks/` folder:
-      ```cd notebooks```
+      ```
+      cd notebooks
+      ```
    - Start the Jupyter server:
-      ```jupyter notebook```
+      ```
+      jupyter notebook
+      ```
 
 ## Data Source
 
