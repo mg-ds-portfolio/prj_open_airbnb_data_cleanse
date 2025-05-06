@@ -1,5 +1,5 @@
 # Ignore your virtual environment
-#venv/
+venv/
 
 # Ignore Jupyter checkpoints (auto-saved backups)
 .ipynb_checkpoints/
@@ -10,6 +10,7 @@ __pycache__/
 
 # Ignore large or private data files
 data/
+!data/.gitkeep
 
 # Ignore model output or temp files (optional)
 *.h5

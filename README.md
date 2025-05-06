@@ -21,10 +21,9 @@ This project includes:
 ## File Structure
 ```
 notebooks/         # Jupyter notebook showing the data cleansing process
-src/               # Reusable Python code (e.g., helper functions)
-data/              # Raw input (not included) and optional output files
 requirements.txt   # Python dependencies
 README.md          # Project overview
+data/              # Raw input (not included) and optional output files
 ```
 
 ## How to Use
@@ -35,6 +34,12 @@ README.md          # Project overview
    ```
 
 2. Create and activate a virtual environment
+
+   ```
+   python -m venv venv
+   source venv/bin/activate  # On Mac/Linux
+   venv\Scripts\activate     # On Windows
+   ```
 
 3. Install dependencies:
 
@@ -51,6 +56,9 @@ README.md          # Project overview
       ```
       jupyter notebook
       ```
+      This command will launch a local web server and automatically open your default web browser showing the Jupyter interface. If the browser does not open automatically, copy the URL provided in the terminal (it will look something like `http://localhost:8888/?token=...`) and paste it into your browser.
+
+   - In your browser, click on the relevant `.ipynb` file to open it, then run each cell in order to reproduce the cleaning process.
 
 ## Data Source
 
